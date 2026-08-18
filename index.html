@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bernadette Olesia Rugby Foundation | Empowering Girls Through Rugby</title>
+
+    <meta name="description"
+        content="The Bernadette Olesia Rugby Foundation empowers girls through rugby, education, mentorship and leadership development.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        rugby: '#0B3D2E',
+                        rugbyDark: '#06291F',
+                        gold: '#D6A84F',
+                        cream: '#F8F6F0'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="font-sans text-gray-900 bg-white">
+
+<!-- ================= NAVBAR ================= -->
+
+<header id="navbar"
+    class="fixed top-0 left-0 w-full z-50 transition-all duration-300">
+
+    <nav class="max-w-7xl mx-auto px-5 lg:px-8">
+
+        <div class="flex items-center justify-between h-20">
+
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center gap-3">
+
+                <div class="w-11 h-11 bg-gold rounded-full flex items-center justify-center">
+                    <i class="fa-solid fa-rugby-ball text-rugby text-lg"></i>
+                </div>
+
+                <div class="hidden sm:block">
+                    <span class="block font-extrabold text-lg leading-tight">
+                        Bernadette Olesia
+                    </span>
+
+                    <span class="block text-xs font-semibold uppercase tracking-widest">
+                        Rugby Foundation
+                    </span>
+                </div>
+
+            </a>
+
+
+            <!-- Desktop navigation -->
+            <div class="hidden md:flex items-center gap-8">
+
+                <a href="index.html"
+                    class="font-medium hover:text-gold transition">
+                    Home
+                </a>
+
+                <a href="index.html#story"
+                    class="font-medium hover:text-gold transition">
+                    Our Story
+                </a>
+
+                <a href="index.html#programs"
+                    class="font-medium hover:text-gold transition">
+                    Programs
+                </a>
+
+                <a href="index.html#impact"
+                    class="font-medium hover:text-gold transition">
+                    Our Impact
+                </a>
+
+                <a href="contact.html"
+                    class="font-medium hover:text-gold transition">
+                    Contact
+                </a>
+
+                <a href="donate.html"
+                    class="bg-gold text-rugby px-6 py-3 rounded-full font-bold hover:bg-white transition">
+                    Support Us
+                </a>
+
+            </div>
+
+
+            <!-- Mobile button -->
+            <button id="menu-btn"
+                class="md:hidden text-2xl"
+                aria-label="Open menu">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- Mobile menu -->
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-rugby text-white rounded-xl mb-4 p-5">
+
+            <div class="flex flex-col gap-5">
+
+                <a href="index.html">Home</a>
+
+                <a href="index.html#story">Our Story</a>
+
+                <a href="index.html#programs">Programs</a>
+
+                <a href="index.html#impact">Our Impact</a>
+
+                <a href="contact.html">Contact</a>
+
+                <a href="donate.html"
+                    class="bg-gold text-rugby text-center px-5 py-3 rounded-full font-bold">
+                    Support Their Journey
+                </a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="relative min-h-screen flex items-center">
+
+    <div class="absolute inset-0">
+
+        <!-- Replace with client's actual image -->
+        <img
+            src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=2000&q=85"
+            alt="Girls playing sport"
+            class="w-full h-full object-cover">
+
+        <div class="absolute inset-0 bg-rugby/80"></div>
+
+    </div>
+
+
+    <div class="relative max-w-7xl mx-auto px-5 lg:px-8 pt-32 pb-20">
+
+        <div class="max-w-3xl text-white">
+
+            <p class="uppercase tracking-[0.25em] text-gold font-bold text-sm mb-6">
+                Rugby • Education • Leadership
+            </p>
+
+            <h1 class="font-black text-5xl sm:text-6xl lg:text-8xl leading-[0.95] mb-8">
+                They Want to
+                <span class="text-gold">Win.</span>
+                <br>
+                And Win the
+                <span class="text-gold">Right Way.</span>
+            </h1>
+
+            <p class="text-lg md:text-xl text-gray-200 max-w-2xl leading-relaxed mb-10">
+                We empower girls through rugby, education and mentorship,
+                helping them pursue their dreams while building lives rooted
+                in character, dignity and integrity.
+            </p>
+
+            <a href="#story"
+                class="inline-flex items-center gap-3 border border-white px-7 py-4 rounded-full font-bold hover:bg-white hover:text-rugby transition">
+
+                Discover Their Story
+
+                <i class="fa-solid fa-arrow-down"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white animate-bounce">
+
+        <i class="fa-solid fa-chevron-down"></i>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MEET THE GIRLS ================= -->
+
+<section id="story" class="py-24 lg:py-32 bg-cream">
+
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+            <div>
+
+                <p class="text-rugby font-bold uppercase tracking-widest text-sm mb-5">
+                    More Than A Game
+                </p>
+
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-7">
+                    A Rugby Field Can Be The Start Of Something Bigger.
+                </h2>
+
+                <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                    For girls with the courage to dream, rugby can be more
+                    than a sport. It can become a pathway to confidence,
+                    education, opportunity and a better future.
+                </p>
+
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    We believe every girl deserves the opportunity to discover
+                    what she is capable of — both on the field and in life.
+                </p>
+
+            </div>
+
+
+            <div class="grid grid-cols-2 gap-4">
+
+                <div class="bg-white p-7 rounded-2xl shadow-sm">
+
+                    <i class="fa-solid fa-bolt text-gold text-3xl mb-5"></i>
+
+                    <h3 class="font-bold text-xl mb-2">
+                        Confidence
+                    </h3>
+
+                    <p class="text-gray-500">
+                        Finding the courage to believe in yourself.
+                    </p>
+
+                </div>
+
+
+                <div class="bg-rugby text-white p-7 rounded-2xl">
+
+                    <i class="fa-solid fa-users text-gold text-3xl mb-5"></i>
+
+                    <h3 class="font-bold text-xl mb-2">
+                        Teamwork
+                    </h3>
+
+                    <p class="text-gray-300">
+                        Learning that we achieve more together.
+                    </p>
+
+                </div>
+
+
+                <div class="bg-rugby text-white p-7 rounded-2xl">
+
+                    <i class="fa-solid fa-person-chalkboard text-gold text-3xl mb-5"></i>
+
+                    <h3 class="font-bold text-xl mb-2">
+                        Leadership
+                    </h3>
+
+                    <p class="text-gray-300">
+                        Developing girls who can lead with integrity.
+                    </p>
+
+                </div>
+
+
+                <div class="bg-white p-7 rounded-2xl shadow-sm">
+
+                    <i class="fa-solid fa-seedling text-rugby text-3xl mb-5"></i>
+
+                    <h3 class="font-bold text-xl mb-2">
+                        Opportunity
+                    </h3>
+
+                    <p class="text-gray-500">
+                        Creating pathways toward sustainable futures.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BERNADETTE STORY ================= -->
+
+<section class="py-24 lg:py-32 bg-white">
+
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+            <div class="relative">
+
+                <img
+                    src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=1000&q=80"
+                    alt="Founder"
+                    class="rounded-3xl w-full h-[550px] object-cover">
+
+                <div class="absolute -bottom-6 -right-6 bg-gold text-rugby p-7 rounded-2xl max-w-xs">
+
+                    <p class="font-black text-2xl leading-tight">
+                        "Win the right way."
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <p class="text-rugby font-bold uppercase tracking-widest text-sm mb-5">
+                    Our Story
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-black mb-8">
+                    She Believed There Was A Better Way.
+                </h2>
+
+                <div class="space-y-5 text-gray-600 text-lg leading-relaxed">
+
+                    <p>
+                        Bernadette Olesia dedicated her life to rugby because
+                        she believed it could give her an honest living and a
+                        better future.
+                    </p>
+
+                    <p>
+                        She refused to take shortcuts.
+                    </p>
+
+                    <p>
+                        She believed success should never come at the cost
+                        of character, dignity or integrity.
+                    </p>
+
+                    <p>
+                        The Bernadette Olesia Rugby Foundation exists to keep
+                        that belief alive.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MISSION ================= -->
+
+<section class="bg-rugby text-white py-24">
+
+    <div class="max-w-5xl mx-auto px-5 text-center">
+
+        <p class="text-gold uppercase tracking-widest font-bold text-sm mb-5">
+            Our Mission
+        </p>
+
+        <h2 class="text-3xl md:text-5xl font-black leading-tight mb-8">
+            Empowering Girls To Pursue Sport,
+            Education And Sustainable Livelihoods.
+        </h2>
+
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto">
+            We create pathways for young women to pursue professional sport
+            and sustainable livelihoods while upholding character, dignity
+            and fair play.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROGRAMS ================= -->
+
+<section id="programs" class="py-24 lg:py-32 bg-cream">
+
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+
+        <div class="max-w-3xl mb-16">
+
+            <p class="text-rugby font-bold uppercase tracking-widest text-sm mb-5">
+                What We Do
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-black mb-6">
+                Turning Potential Into Opportunity.
+            </h2>
+
+            <p class="text-gray-600 text-lg">
+                We create an environment where girls can train, learn,
+                develop and prepare for the future.
+            </p>
+
+        </div>
+
+
+        <div class="grid md:grid-cols-2 gap-6">
+
+            <!-- Program -->
+
+            <div class="bg-white p-8 md:p-10 rounded-3xl">
+
+                <div class="w-14 h-14 bg-rugby text-gold rounded-xl flex items-center justify-center text-xl mb-7">
+
+                    <i class="fa-solid fa-rugby-ball"></i>
+
+                </div>
+
+                <h3 class="text-2xl font-black mb-4">
+                    Rugby Training
+                </h3>
+
+                <p class="text-gray-600 leading-relaxed">
+                    Free coaching, equipment and safe playing spaces help
+                    girls develop their sporting ability, confidence and
+                    discipline.
+                </p>
+
+            </div>
+
+
+            <div class="bg-white p-8 md:p-10 rounded-3xl">
+
+                <div class="w-14 h-14 bg-rugby text-gold rounded-xl flex items-center justify-center text-xl mb-7">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                </div>
+
+                <h3 class="text-2xl font-black mb-4">
+                    Education & Life Skills
+                </h3>
+
+                <p class="text-gray-600 leading-relaxed">
+                    Scholarships, financial literacy, health education and
+                    practical life skills help girls prepare for life beyond
+                    the field.
+                </p>
+
+            </div>
+
+
+            <div class="bg-white p-8 md:p-10 rounded-3xl">
+
+                <div class="w-14 h-14 bg-rugby text-gold rounded-xl flex items-center justify-center text-xl mb-7">
+
+                    <i class="fa-solid fa-handshake"></i>
+
+                </div>
+
+                <h3 class="text-2xl font-black mb-4">
+                    Mentorship
+                </h3>
+
+                <p class="text-gray-600 leading-relaxed">
+                    We connect girls with role models, mentors and career
+                    pathways in sport and beyond.
+                </p>
+
+            </div>
+
+
+            <div class="bg-rugby text-white p-8 md:p-10 rounded-3xl">
+
+                <div class="w-14 h-14 bg-gold text-rugby rounded-xl flex items-center justify-center text-xl mb-7">
+
+                    <i class="fa-solid fa-shield-heart"></i>
+
+                </div>
+
+                <h3 class="text-2xl font-black mb-4">
+                    Integrity First
+                </h3>
+
+                <p class="text-gray-300 leading-relaxed">
+                    We teach girls that success means more when it is built
+                    on character, dignity, honesty and fair play.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY RUGBY ================= -->
+
+<section class="py-24 lg:py-32 bg-white">
+
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+            <div>
+
+                <p class="text-rugby font-bold uppercase tracking-widest text-sm mb-5">
+                    Why Rugby?
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-black mb-7">
+                    The Lessons On The Field Can Last A Lifetime.
+                </h2>
+
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    Rugby teaches courage, discipline, resilience and
+                    teamwork. It gives girls a community and an opportunity
+                    to discover their strengths.
+                </p>
+
+            </div>
+
+
+            <div class="grid grid-cols-2 gap-5">
+
+                <div class="border border-gray-200 rounded-2xl p-6">
+
+                    <span class="text-gold font-black text-3xl">01</span>
+
+                    <h3 class="font-bold text-xl mt-4">
+                        Courage
+                    </h3>
+
+                </div>
+
+
+                <div class="border border-gray-200 rounded-2xl p-6">
+
+                    <span class="text-gold font-black text-3xl">02</span>
+
+                    <h3 class="font-bold text-xl mt-4">
+                        Discipline
+                    </h3>
+
+                </div>
+
+
+                <div class="border border-gray-200 rounded-2xl p-6">
+
+                    <span class="text-gold font-black text-3xl">03</span>
+
+                    <h3 class="font-bold text-xl mt-4">
+                        Resilience
+                    </h3>
+
+                </div>
+
+
+                <div class="border border-gray-200 rounded-2xl p-6">
+
+                    <span class="text-gold font-black text-3xl">04</span>
+
+                    <h3 class="font-bold text-xl mt-4">
+                        Leadership
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= IMPACT ================= -->
+
+<section id="impact" class="py-24 bg-rugby text-white">
+
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+
+        <div class="text-center mb-16">
+
+            <p class="text-gold uppercase tracking-widest font-bold text-sm mb-4">
+                Our Impact
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-black">
+                Growing The Game. Growing Possibilities.
+            </h2>
+
+        </div>
+
+
+        <!-- Replace these numbers with real figures -->
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+
+            <div>
+
+                <p class="text-5xl md:text-6xl font-black text-gold">
+                    500+
+                </p>
+
+                <p class="uppercase tracking-widest text-sm mt-3 text-gray-300">
+                    Girls Reached
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <p class="text-5xl md:text-6xl font-black text-gold">
+                    20+
+                </p>
+
+                <p class="uppercase tracking-widest text-sm mt-3 text-gray-300">
+                    Communities
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <p class="text-5xl md:text-6xl font-black text-gold">
+                    100+
+                </p>
+
+                <p class="uppercase tracking-widest text-sm mt-3 text-gray-300">
+                    Training Sessions
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <p class="text-5xl md:text-6xl font-black text-gold">
+                    50+
+                </p>
+
+                <p class="uppercase tracking-widest text-sm mt-3 text-gray-300">
+                    Mentorship Opportunities
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <p class="max-w-3xl mx-auto text-center text-gray-300 text-lg mt-16 leading-relaxed">
+
+            Behind every number is a girl who has stepped onto the field,
+            learned something new, found a mentor or discovered a possibility
+            she had not considered before.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHERE SUPPORT GOES ================= -->
+
+<section class="py-24 lg:py-32 bg-cream">
+
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+
+        <div class="text-center max-w-3xl mx-auto mb-16">
+
+            <p class="text-rugby uppercase tracking-widest font-bold text-sm mb-5">
+                Creating Opportunity
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-black mb-6">
+                What It Takes To Keep A Girl In The Game.
+            </h2>
+
+            <p class="text-gray-600 text-lg">
+                Creating opportunities requires more than a rugby ball.
+                It requires the right environment, resources and people.
+            </p>
+
+        </div>
+
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+
+            <div class="bg-white rounded-2xl p-7">
+
+                <i class="fa-solid fa-rugby-ball text-rugby text-2xl mb-5"></i>
+
+                <h3 class="font-bold text-xl mb-3">
+                    Equipment
+                </h3>
+
+                <p class="text-gray-500">
+                    Rugby balls, training equipment and playing gear.
+                </p>
+
+            </div>
+
+
+            <div class="bg-white rounded-2xl p-7">
+
+                <i class="fa-solid fa-person-running text-rugby text-2xl mb-5"></i>
+
+                <h3 class="font-bold text-xl mb-3">
+                    Training
+                </h3>
+
+                <p class="text-gray-500">
+                    Quality coaching and opportunities to develop.
+                </p>
+
+            </div>
+
+
+            <div class="bg-white rounded-2xl p-7">
+
+                <i class="fa-solid fa-book-open text-rugby text-2xl mb-5"></i>
+
+                <h3 class="font-bold text-xl mb-3">
+                    Education
+                </h3>
+
+                <p class="text-gray-500">
+                    Scholarships, education and practical life skills.
+                </p>
+
+            </div>
+
+
+            <div class="bg-white rounded-2xl p-7">
+
+                <i class="fa-solid fa-people-arrows text-rugby text-2xl mb-5"></i>
+
+                <h3 class="font-bold text-xl mb-3">
+                    Mentorship
+                </h3>
+
+                <p class="text-gray-500">
+                    Guidance, role models and pathways to opportunity.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FINAL CTA ================= -->
+
+<section class="relative py-32 overflow-hidden">
+
+    <div class="absolute inset-0">
+
+        <img
+            src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=2000&q=85"
+            alt="Girls training"
+            class="w-full h-full object-cover">
+
+        <div class="absolute inset-0 bg-rugby/85"></div>
+
+    </div>
+
+
+    <div class="relative max-w-4xl mx-auto px-5 text-center text-white">
+
+        <p class="text-gold uppercase tracking-widest font-bold text-sm mb-5">
+            Be Part Of The Journey
+        </p>
+
+        <h2 class="text-4xl md:text-6xl font-black leading-tight mb-7">
+            Every Girl Deserves A Chance To Discover What She's Capable Of.
+        </h2>
+
+        <p class="text-gray-200 text-lg max-w-2xl mx-auto mb-10">
+            Your support helps create access to rugby, education,
+            mentorship and opportunities for girls to pursue their dreams.
+        </p>
+
+        <a href="donate.html"
+            class="inline-flex items-center gap-3 bg-gold text-rugby px-8 py-4 rounded-full font-black hover:bg-white transition">
+
+            Support Their Journey
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-rugbyDark text-white">
+
+    <div class="max-w-7xl mx-auto px-5 lg:px-8 py-16">
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+
+            <div class="lg:col-span-2">
+
+                <div class="flex items-center gap-3 mb-6">
+
+                    <div class="w-11 h-11 bg-gold rounded-full flex items-center justify-center">
+                        <i class="fa-solid fa-rugby-ball text-rugby"></i>
+                    </div>
+
+                    <div>
+                        <p class="font-black">
+                            Bernadette Olesia
+                        </p>
+
+                        <p class="text-xs uppercase tracking-widest">
+                            Rugby Foundation
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="text-gray-400 max-w-md leading-relaxed">
+                    Empowering girls through rugby, education and leadership,
+                    while helping them pursue their dreams with character,
+                    dignity and integrity.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold text-lg mb-5">
+                    Explore
+                </h3>
+
+                <div class="flex flex-col gap-3 text-gray-400">
+
+                    <a href="index.html" class="hover:text-gold">
+                        Home
+                    </a>
+
+                    <a href="index.html#story" class="hover:text-gold">
+                        Our Story
+                    </a>
+
+                    <a href="index.html#programs" class="hover:text-gold">
+                        Programs
+                    </a>
+
+                    <a href="index.html#impact" class="hover:text-gold">
+                        Our Impact
+                    </a>
+
+                    <a href="contact.html" class="hover:text-gold">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold text-lg mb-5">
+                    Get Involved
+                </h3>
+
+                <div class="flex flex-col gap-3 text-gray-400">
+
+                    <a href="donate.html" class="hover:text-gold">
+                        Support Their Journey
+                    </a>
+
+                    <a href="contact.html" class="hover:text-gold">
+                        Partner With Us
+                    </a>
+
+                    <a href="contact.html" class="hover:text-gold">
+                        Volunteer
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="border-t border-white/10 mt-14 pt-7 flex flex-col md:flex-row justify-between gap-4 text-sm text-gray-500">
+
+            <p>
+                © <span id="year"></span> Bernadette Olesia Rugby Foundation.
+                All rights reserved.
+            </p>
+
+            <p>
+                Win The Right Way.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
